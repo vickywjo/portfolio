@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vicky Joseph: Portfolio</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- linking to bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- linking to local stylesheet -->
+    <link rel="stylesheet" href="css/portfolio.css" />
+  </head>
+  <body>
+    <!-- header bar -->
+    <header>
+      <div class="navbar ">
+        <div class=" d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong id="titleName">Vicky Joseph</strong>
+          </a>
+        </div>
+          <div class="nav-links">
+          <a href="#about" class="btn btn-nav my-2"
+          >About</a
+        >
+        <a href="showcase.html" class="btn btn-nav my-2"
+          >Project & Skill Showcase</a
+        >
+        <a href= "#contactInfo" class="btn btn-nav my-2">Contact Info</a>
+          </div>
+        </div>
+      
+    </header>
+<!-- nav buttons -->
+    <main role="main">
+      <section class="jumbotron text-center">
+        <div>
+          <strong>
+          <h1 class="jumbotron-heading">Vicky Joseph: Portfolio</h1>
+          <p class="lead">
+            Web Developer, UX/UI Designer and Researcher
+          </strong>
+          </p>
+          <p>
+            <a href="#about" class="btn btn-primary my-2"
+              >About</a
+            >
+            <a href="#projects" class="btn btn-primary my-2"
+              >Project & Skill Showcase</a
+            >
+            <a href= "#contactInfo" class="btn btn-primary my-2">Contact Info</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- about section -->
+      <div id="about">
+        <div class="aboutContainer">
+         
+          <div class="aboutSec container box-shadow">
+             <h3>About</h3>
+             <div class="aboutContent">
+            <figure >
+              <img class="Vicky" src="img/me.png" alt="Vicky with pink flowers">
+            </figure>
+
+            <p class="aboutText" >
+
+              Vicky is a web developer with a foucs in UX/UI Engineering. Outside of web development, she have experiences in the performing arts and working in education. While in university, she also volunteered for community causes, and has participated in several case studies as well. 
+              
+              <br>
+              <br>
+              
+              Vicky receieved her B.A. at the University of Central Florida.  While knowledgable in Figma, User-Centered Design, React, React Native, PHP, SQL, JavaScript, CSS, and HTML, she also has experience in working with WordPress, Adobe Photoshop, Adobe Illustrator, GitHub and PHPMyAdmin. 
+
+            </p>
+          </div>
+        </div>
+<!-- project section -->
+<div id="projects">
+  <div class="album py-5 ">
+      <div class="container">
+      <h3>Project & Skill Showcase</h3>
+          <div class="row">
+  <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <video class="card-img-top" autoplay muted>
+        <source src="videos/menuApp.mp4" type="video/mp4" />
+    </video>
+    <div class="card-body">
+        <p class="card-text">
+        <strong>Menu App</strong>
+        This is a mock resturant's menu, which accesses all the menu items from an external source using React, rather than being hard coded in. My biggest struggle with this app was getting the menu items to be accurately listed while maintaining the proper styling. After getting it to work with one menu item, I was able to repeat this process for the rest of them.
+        </p>
+    </div>
+    </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4 box-shadow">
+      <video autoplay muted class="card-img-top" src="videos/quizApp.mp4"></video>
+      <div class="card-body">
+          <p class="card-text">
+          <strong>Quiz App</strong>
+          This React Native app allows the users to take a quiz and see their correct and inocrrect answers when done. The users can answer multiple choice, multiple select, or true-or-false questions. Getting the results summary to display with the users selections visible was difficult as originally, all answer choices would be marked based on what was correct or incorrect. After trial and error I managed to focus on the user's input instead. 
+          </p>
+      </div>
+  </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <img
+        class="card-img-top"
+        src="img/flashcard design.png"
+        alt="Card image cap"
+    />
+    <div class="card-body">
+        <p class="card-text">
+        <strong>FlashCard App Design</strong>
+        This app allows users to input flashcard study sets and then use these virtual flashcards to study. The user also has the ablility to search for other published studysets if they desire. I wanted this app's design to maintain some similar features as others of the same genre to ensure users would be able to use that knowledge with my design. I also wanted to add more features like being able to add images to each term and quickly flip between cards even without selecting a specific studyset. 
+        </p>
+    </div>
+    </div>
+</div>
+
+    <h3><a class="view" href="showcase.html">Click to View More!</a></h3>
+
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+<!-- contact/footer -->
+    <footer id="contactInfo">
+      <div class="footerContainer">
+        <p id="top">
+          <button id="buttonTop"> <a id="top" href="#">Back to Top ↑</a></button>
+        </p>
+        <h4 class="end">Contact Information</h4>
+        <ul class="list-unstyled">
+            <li>
+              <img class="icon" src="img/icons8-linkedin-50.png" alt="LinkedIn icon by Icons8">
+              <a href="https://www.linkedin.com/in/vickywjoseph/" class="personalLink" target="_blank">
+                LinkedIn
+              </a>
+            </li>
+            <li> 
+              <img class="icon" src="img/icons8-email-50.png" alt="Email icon by Icons8">
+              <a href="https://vickywallynjoseph@gmail.com" class="personalLink" target="_blank">
+                Email
+              </a>
+            </li>
+            <li>
+              <img class="icon" src="img/icons8-download-50.png" alt="Download icon by Icons8">
+              <a href="VickyJosephResume.pdf" class="personalLink" download target="_blank">Resume</a>
+            </li>
+            </ul>
+            <p class="end" class="text-center"> Contact me for further inquires!
+            </p>
+        </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

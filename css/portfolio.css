@@ -1,0 +1,196 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    /* background-color: #fff; */
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* .jumbotron-heading {
+    font-weight: 300;
+  } */
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  
+  body{
+    /* background-image: url("../img/backgroundImageV260.png"); */
+    background-color: #fed8df;
+    /* background-color: #FF5A77; */
+  }
+
+  .btn-primary{
+    background-color: #d2425d;
+    border-color: #d2425d;
+  }
+
+
+  .container{
+    /* background-color: #FFB28D; */
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  .aboutContainer{
+    padding: 20px;
+  }
+  footer{
+    background-color: #d2425d;
+    padding-left: 30px;
+    
+  }
+  li{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+  }
+  section{
+    background-image: url("../img/backgroundImageV260.png");
+    border-radius: 15px;
+  }
+
+  strong{
+    color: #d2425d;
+    font-size: 25px;
+  }
+
+  #titleName{
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 25px;
+
+  }
+  .jumbotron-heading{
+    color: #d2425d;
+  }
+
+  .lead{
+    color: #d2425d;
+  }
+
+  header{
+    /* background-color: #FF8DA1; */
+    background-color: #d2425d;
+  }
+
+  .btn-nav{
+    background-color: white;
+    border-radius: 10px;
+    color: #d2425d;
+  }
+
+  .nav-links{
+  justify-content: right;
+  padding-right: 20px;
+  }
+
+ .aboutSec{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 20px;
+
+ }
+ .aboutContent{
+  display: flex;
+  
+ }
+
+.Vicky{
+  width: 375px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.aboutText{
+  font-size: 1.5em;
+  padding-top: 20px;
+  
+}
+.end{
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
+}
+h3{
+  text-align: center;
+  padding: 10px;
+  color: #d2425d;
+  font-size: 1.85em;
+}
+h4{
+  text-align: center;
+}
+.personalLink{
+  color: white;
+  text-decoration: none;
+  font-size: 1.35em;  
+  text-align: center;
+  padding-left: 15px;
+}
+
+ul{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  
+}
+
+#top{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.15em;
+  text-align: right;
+  padding: 10px;
+}
+#buttonTop{
+  border-radius: 10px;
+  border: #FF8DA1;
+  background-color: #FF8DA1;
+  padding:5px;
+}
+
+.box-shadow{
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.648);
+}
+.view{
+  text-align: center;
+  padding: 10px;
+  color: #d2425d;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+#cosmiraBio{
+  color: #96293d;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+}
+#cosmiraTitle{
+  font-size: 2em;
+}
